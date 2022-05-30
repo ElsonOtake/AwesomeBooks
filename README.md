@@ -29,19 +29,21 @@ In order to run this project on your computer, please make sure that you have a 
 
 ### Setup
 
- - Create a new folder;
- - Copy the index.html to this folder;
- - Copy the index.css to this folder;
- - Copy the index.js to this folder;
- - Create the modules folder in this folder;
- - Copy the books.js to the modules folder;
- - Copy the list_books.js to the modules folder;
- - Copy the local-storage.js to the modules folder;
- - Copy the luxon.js to the modules folder;
- - Copy the user_interface.js to the modules folder;
- - Double click on the index.html;
+Cloning a repository
 
-Once you completed these steps you should see the site in your browser.
+- On GitHub.com, navigate to the main page of the repository;
+
+- Above the list of files, click "Code" button;
+
+- Copy the URL to clone the repository, the options o using are: HTTPS, SSH key or, GitHub CLI;
+
+- Open TerminalTerminalGit Bash;
+
+- Change the current working directory to the location where you want the cloned directory;
+
+- Type git clone, and then paste the URL you copied earlier : $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY;
+
+- Press Enter to create your local clone.
 
 
 ## Author
@@ -71,3 +73,8 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - W3Schools
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
