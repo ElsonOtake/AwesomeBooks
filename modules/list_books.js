@@ -1,6 +1,6 @@
 import { DateTime } from './luxon.js';
 
-const dynamicLoad = awesome => {
+const dynamicLoad = (awesome) => {
   const body = document.querySelector('body');
   if (document.querySelector('.list')) {
     body.removeChild(document.querySelector('.list'));
