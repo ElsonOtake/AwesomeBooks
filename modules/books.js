@@ -5,12 +5,12 @@ export default class Books {
 
   add(tit, aut) {
     this.books = [...this.books, { title: tit, author: aut }];
-    localStorage.setItem('classData', JSON.stringify(this.books));
+    localStorage.setItem('booksClass', JSON.stringify(this.books));
   }
 
   remove(tit, aut) {
     this.books = this.books.filter((book) => (!(((book.title === tit) && (book.author === aut)))));
-    localStorage.setItem('classData', JSON.stringify(this.books));
+    localStorage.setItem('booksClass', JSON.stringify(this.books));
   }
 
   size() {
@@ -26,6 +26,6 @@ export default class Books {
   }
 
   restoreStorage() {
-    this.books = JSON.parse(localStorage.getItem('classData'));
+    this.books = JSON.parse(localStorage.getItem('booksClass'));
   }
 }
