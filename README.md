@@ -35,15 +35,19 @@ Cloning a repository
 
 - Above the list of files, click "Code" button;
 
-- Copy the URL to clone the repository, the options o using are: HTTPS, SSH key or, GitHub CLI;
+- Copy the URL to clone the repository. 
 
-- Open TerminalTerminalGit Bash;
+  - To clone the repository using HTTPS : `https://github.com/ElsonOtake/AwesomeBooks.git`
+
+  - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority : `git@github.com:ElsonOtake/AwesomeBooks.git`
+
+  - To clone a repository using GitHub CLI : `gh repo clone ElsonOtake/AwesomeBooks`
+
+- Open Terminal;
 
 - Change the current working directory to the location where you want the cloned directory;
 
-- Type git clone, and then paste the URL you copied earlier : $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY;
-
-- Press Enter to create your local clone.
+- Type `git clone`, and then paste the URL you copied earlier;
 
 
 ## Author

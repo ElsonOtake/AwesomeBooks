@@ -3,14 +3,16 @@ body {
   padding: 0;
   text-align: center;
   box-sizing: border-box;
+  color: blue;
 }
 
 header {
   display: flex;
   width: 80%;
-  margin: auto;
+  margin: 20px auto 0;
   justify-content: space-between;
-  border: 2px solid black;
+  border: 2px solid blue;
+  background-color: rgb(206, 225, 225);
 }
 
 header p {
@@ -55,7 +57,7 @@ header li:nth-child(3).active {
   align-items: center;
   justify-content: space-around;
   width: 80%;
-  border: 2px solid black;
+  border: 2px solid blue;
 }
 
 .list h1 {
@@ -82,15 +84,17 @@ header li:nth-child(3).active {
 }
 
 form button {
-  background-color: antiquewhite;
+  background-color: rgb(108, 126, 126);
   align-self: flex-end;
   margin-right: 20%;
+  color: white;
 }
 
 .list .book_line button {
   background-color: rgb(108, 126, 126);
   height: min-content;
   margin-right: 20px;
+  color: white;
 }
 
 .list .book_line:nth-of-type(odd) {
@@ -132,7 +136,8 @@ footer {
   width: 80%;
   margin: 40px auto 0;
   text-align: left;
-  border: 2px solid black;
+  border: 2px solid blue;
+  background-color: rgb(206, 225, 225);
 }
 
 footer p {

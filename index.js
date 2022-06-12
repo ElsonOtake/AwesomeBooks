@@ -5,13 +5,13 @@ import { inputTitle, inputAuthor } from './modules/user_interface.js';
 
 const awesome = new Books();
 
-if (!localStorage.getItem('data')) {
+if (!localStorage.getItem('books')) {
   populateStorage(inputTitle.value, inputAuthor.value);
 } else {
   [inputTitle.value, inputAuthor.value] = populateNewForm();
 }
 
-if (localStorage.getItem('classData')) {
+if (localStorage.getItem('booksClass')) {
   awesome.restoreStorage();
 }
 
