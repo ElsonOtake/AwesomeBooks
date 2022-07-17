@@ -1,9 +1,6 @@
 {
   "connector": {
-    "name": "local",
-    "options": {
-      "pattern": ["**", "!.git/**", "!node_modules/**"]
-    }
+    "name": "local"
   },
   "extends": ["development"],
   "formatters": ["stylish"],
